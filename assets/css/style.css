@@ -605,28 +605,28 @@ a.back-to-top i:hover {
   display: block;
   margin-top: 60px;
   width: 100%;
-  height: 60px;
+  height: 120px;
   z-index: 5;
   position: relative;
 }
 
 .wave1 use {
-  -webkit-animation: move-forever1 10s linear infinite;
-  animation: move-forever1 10s linear infinite;
+  -webkit-animation: move-forever1 2s linear infinite;
+  animation: move-forever1 1s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
 
 .wave2 use {
-  -webkit-animation: move-forever2 8s linear infinite;
-  animation: move-forever2 8s linear infinite;
+  -webkit-animation: move-forever2 3s linear infinite;
+  animation: move-forever2 3s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
 
 .wave3 use {
-  -webkit-animation: move-forever3 6s linear infinite;
-  animation: move-forever3 6s linear infinite;
+  -webkit-animation: move-forever3 4s linear infinite;
+  animation: move-forever3 2s linear infinite;
   -webkit-animation-delay: -2s;
   animation-delay: -2s;
 }
