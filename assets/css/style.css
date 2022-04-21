@@ -54,10 +54,21 @@ h6 {
   width: 600px;
   height: 600px;
   -webkit-animation: animate-preloader 2s linear infinite;
+  -moz-animation: animate-preloader 2s linear infinite;
   animation: animate-preloader 2s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
   }
