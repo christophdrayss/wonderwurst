@@ -106,7 +106,7 @@ a.back-to-top i {
 
 a.back-to-top :hover,
 a.back-to-top i:hover {
-  background: #535a58;
+  background: #71f0cc;
   color: #fff !important;
 }
 
@@ -426,7 +426,7 @@ a.back-to-top i:hover {
   padding: 120px 0 0 0;
 }
 
-#hero:before {
+#hero {
   content: "";
   background: #558d26;
   background-color: #e5e5f7;
@@ -435,11 +435,6 @@ a.back-to-top i:hover {
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   background-repeat: repeat;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 #hero h1 {
@@ -448,7 +443,8 @@ a.back-to-top i:hover {
   font-weight: 700;
   line-height: 56px;
   color: rgb(40, 233, 82);
-  background-color: lightgrey;
+  background-color: rgb(255, 230, 0);
+  border-radius: 5px;
   stroke: rgb(0, 34, 226);
   stroke-width: 1px;
   stroke-linejoin: round;
