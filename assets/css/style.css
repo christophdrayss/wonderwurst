@@ -495,9 +495,6 @@ a.back-to-top i:hover {
   animation: animate-heroimg 2s linear infinite;
 }
 
-
-}
-
 @-webkit-keyframes animate-heroimg {
   0% {
     transform: rotate(0deg);
@@ -2315,7 +2312,8 @@ How it works
 }
 
 .accept-cookie {
-  background-color: #66c58be8 border: none;
+  background-color: #66c58be8 ;
+  border: none;
 }
 
 .center {
